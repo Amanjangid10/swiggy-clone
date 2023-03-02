@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 1px 3px gray;
+    padding: 10px;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+    box-shadow: 0 4px 5px rgb(226, 226, 226);
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.left>div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 30px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.right>div {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.nav-container1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+.right-half {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 210px;
+    padding: 20px;
+    margin: 40px 0px;
+    position: relative;
+}
+
+.waff {
+    width: 210px;
+    padding: 0;
+}
+
+h3 {
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.card p {
+    margin: 0;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    border-bottom: 1px solid gray;
+    margin: 10px 0px;
+}
+
+.bullet {
+    background-color: black;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+.discount {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+.card:hover {
+    outline: 0.5px solid gray;
+}
+
+.rating-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 148, 39);
+    color: black;
+    padding: 0.5%;
+}
+
+.waff::before {
+    content: 'PROMOTED ';
+    display: block;
+    border: 10px solid red;
+    position: absolute;
+    top: 0;
+}
+
+.btn {
+    display: block;
+    border: none;
+    font-weight: bold;
+    color: blue;
+    margin: 5px auto;
+    padding: 5px 0px;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat( 4, auto);
+    padding: 100px;
+}
+
+.footer>div {
+    display: flex;
+}
